@@ -7,7 +7,7 @@ import { SearchOutlined } from '@material-ui/icons'
 import './Sidebar.css'
 import Sidebarchat from './Sidebarchat'
 
-const Sidebar = () => {
+const Sidebar = ({ messages }) => {
     return (
         <div className ="Sidebar">
             <div className="Sidebar__Header">
@@ -31,7 +31,7 @@ const Sidebar = () => {
                 </div>
             </div>
             <div className="Sidebar__Chats">
-                <Sidebarchat />
+                <Sidebarchat messages={messages} />
 
             </div>
         </div>
