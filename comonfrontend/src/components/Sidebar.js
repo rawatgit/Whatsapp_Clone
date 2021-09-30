@@ -25,10 +25,10 @@ const Sidebar = () => {
                 </div>  
             </div>
             <div className="Sidebar__Search">
-            <div className="Sidebar__SearchContainer">
-                <SearchOutlined />
-                <input type ="text" placeholder ="Search or start new chat"/>
-            </div>
+                <div className="Sidebar__SearchContainer">
+                    <SearchOutlined />
+                     <input type ="text" placeholder ="Search or start new chat"/>
+                </div>
             </div>
             <div className="Sidebar__Chats">
                 <Sidebarchat />

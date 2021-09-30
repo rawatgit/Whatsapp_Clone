@@ -3,8 +3,7 @@ import React, { useEffect, useState } from 'react'
 import './Sidebarchat.css'
 
 const Sidebarchat = () => {
-    const [seed, setSeed] = useState("")
-
+    const [ Seed ,setSeed] = useState("")
     useEffect(() => {
         setSeed(Math.floor(Math.random() * 5000))
         }, [])
