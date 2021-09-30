@@ -9,7 +9,7 @@ import dbMessage from "./dbMessage.js"
 // App Config
 const app = express()
 const port  = process.env.PORT || 9000
-const connection_url = 'mongodb+srv://admin:M6CycBksnaCfbVx5@cluster0.zrquk.mongodb.net/whatsappDB?retryWrites=true&w=majority'
+const connection_url = 'mongodb+srv://admin:3I89Jbn9PmDBk4jC@cluster0.zrquk.mongodb.net/whatsappDB?retryWrites=true&w=majority'
 
 //****//
 //const Pusher = require("pusher");
